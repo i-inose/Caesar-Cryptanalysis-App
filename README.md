@@ -1,5 +1,10 @@
 # Introduction
 This is an application to analyze Caesar ciphers made using Streamlit.<br>
+Download cc.py and run the following in a terminal.<br>
+Then navigate to the local URL that appears.
+```
+$ streamlit run cc.py
+```
 
 # Description
 The ciphertext should be generated at the link "Click here to generate ciphertext".<br>
