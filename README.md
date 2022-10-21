@@ -1,21 +1,19 @@
 # Introduction
-This is an application to analyze Caesar ciphers made using Streamlit.<br>
-Download cc.py and run the following in a terminal.<br>
-Then navigate to the local URL that appears.
-```
-$ streamlit run cc.py
-```
+Hello.<br>
+This is a tool to analyze the Caesar cipher.<br>
+It is packaged using PyPI.<br>
 
 # Description
-The ciphertext should be generated at the link "Click here to generate ciphertext".<br>
-Enter the Caesar ciphertext in the input field.<br>
-For this example, we will enter the apple ciphertext "Dssoh".<br>
-<img src="input.png">
+First, please create a Caesar cipher at the following site.<br>
+Please keep a copy of the Caesar cipher you have created.<br>
+Then enter the following program on the terminal and install it.<br>
 
-The result will output 25 candidates as follows.<br>
-There is always a cipher-decrypted plaintext among them.<br>
-In this case, "Apple" is the correct answer, so the 23rd answer is correct.<br>
-<img src="Apple.png">
+```
+$ pip install CaesarCryptanalysis
+```
+
+Then, after running CaesarCryptanalysis, paste the cipher you just copied and press enter.<br>
+You will then get 25 cipher decryption results.<br>
 
 # Postscript
 In this case, we developed a simple Caesar cryptanalysis application using Streamlit.<br>
